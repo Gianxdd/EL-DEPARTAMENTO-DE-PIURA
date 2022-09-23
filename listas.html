@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- CSS -->
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        nav {
+            background-color: rgb(114, 163, 161);
+        }
+
+        .navegador {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        .menu a {
+            text-decoration: none;
+            margin: 40px;
+            color: black;
+        }
+
+        header {
+            height: 80vh;
+            position: relative;
+        }
+
+        header img {
+            width: 100%;
+            height: 100%;
+        }
+
+        header h1 {
+            position: absolute;
+            top: 30%;
+            left: 38%;
+            font-size: 100px;
+            color: rgb(28, 44, 68);
+        }
+
+        main {
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        section {
+            margin-top: 100px;
+
+        }
+
+        .listas {
+            display: flex;
+            gap: 80px;
+        }
+
+        .provincias h3 {
+            font-size: 30px;
+        }
+
+        .provincias li {
+            margin: 20px;
+        }
+
+        .imagenes {
+            display: flex;
+            gap: 20px;
+        }
+
+        .imagenes img {
+            width: 300px;
+            height: 380px;
+            object-fit: cover;
+        }
+
+        .distritos h3 {
+            font-size: 30px;
+        }
+
+        .distritos li {
+            margin: 20px;
+        }
+
+        footer {
+            background-color: rgba(199, 198, 201, 0.74);
+            margin-top: 2rem;
+        }
+
+        .footer {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .footer p {
+            width: 30%;
+            margin-top: 2rem;
+            line-height: 1.6;
+        }
+    </style>
+    <!-- NAV -->
+
+    <nav>
+        <div class="navegador">
+            <h1>PIURA</h1>
+            <div class="menu">
+                <a href="./index.html">HISTORIA</a>
+                <a href="./turismo.html">TURISMO</a>
+                <a href="./listas.html">LISTAS</a>
+            </div>
+        </div>
+
+    </nav>
+
+    <!-- HERO  -->
+    <header>
+        <img src="http://4.bp.blogspot.com/_hD9QJWmnoos/SG12LXtD4FI/AAAAAAAAAFs/9IclyNDE3us/s1600/canon1.gif"
+            alt="">
+        <h1>LISTAS</h1>
+
+    </header>
+    <main>
+        <section class="listas">
+            <div class="provincias">
+                <h3>PROVINCIAS</h3>
+                <ul>
+                    <li>Talara</li>
+                    <li>Paita</li>
+                    <li>Sechura</li>
+                    <li>Morropón</li>
+                </ul>
+            </div>
+            <div class="imagenes">
+                <img src="https://rutasdelperu.org/wp-content/uploads/2022/02/lugares-bonitos-en-piura.jpg" alt=""><img
+                    src="https://rutasdelperu.org/wp-content/uploads/2022/02/como-se-le-conoce-a-piura.jpg" alt=""><img
+                    src="https://propuestapais.pe/wp-content/uploads/2020/01/casa-andina-plaza-armas-piura-casa-andina-piura-hotel-piura-hoteles-piura-alojamiento-piura-turismo-piura-viajes-turismo-negocios-piura-vacaciones-piura-768x470.jpg"
+                    alt=""><img
+                    src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/87/b2/3c/main-church-of-piura.jpg?w=500&h=400&s=1"
+                    alt="">
+            </div>
+        </section>
+        <section class="listas">
+            <div class="distritos">
+                <h3>DISTRITOS</h3>
+                <ul>
+                    <li>Sullana</li>
+                    <li>Pariñas</li>
+                    <li>Tambo Grande</li>
+                    <li>Chulucanas</li>
+                </ul>
+            </div>
+            <div class="imagenes">
+                <img src="https://pbs.twimg.com/media/DQ8AFI8WAAAViIy.jpg" alt=""><img
+                    src="https://upload.wikimedia.org/wikipedia/commons/2/26/Mirador_de_sullana.jpg" alt=""><img
+                    src="https://info-peru.com/wp-content/uploads/2020/01/playa-lobitos.jpg" alt=""><img
+                    src="https://3.bp.blogspot.com/-CVVGZPiDA8c/W9NEv6O0fCI/AAAAAAABK9k/Zi48oLxp25kF9C4ctcsHdlORvmhbxaAuwCLcBGAs/s1600/el-tambo-amotape.jpg"
+                    alt="">
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <div class="footer">
+            <p>Las grandes provincias y distritos de piura </p>
+            <div class="seccion">
+                <p>HISTORIA</p>
+                <P>TURISMO</P>
+                <P>BLOG</P>
+            </div>
+            <span>©Página creada por Gianfranco Casimiro </span>
+        </div>
+    </footer>
+</body>
+
+</html>
